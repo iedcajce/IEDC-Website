@@ -1,31 +1,28 @@
-# IEDC Website Development Guide
+🚀 IEDC Website
+🛠️ Status: In Progress 🚧
+📋 Getting Started
+Fork the repository to your GitHub account. 🍴
 
-## Progress: **In Progress** 
+Clone the repository from your forked repo:
 
-### Getting Started
+bash
+Copy code
+git clone <your-repo-link> ./
+Install the dependencies: 📦
 
-1. **Fork the Repository**  
-   Fork this repository to your GitHub account.
+bash
+Copy code
+npm install
+Run the development server: 🚀
 
-2. **Clone the Repository**  
-   Use `git clone` to download the repository from your forked copy:
-   ```bash
-   git clone <your-link> ./
-   ```
+bash
+Copy code
+npm run dev
+Open http://localhost:3000 🌐 in your browser to view the website.
 
-3. **Run the Development Server**  
-   Start the development server by running:
-   ```bash
-   npm run dev
-   ```
-
-4. **Access the Localhost**  
-   Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
-
-### Tech Stack & Frameworks
-- **Next.js 14**
-- **TypeScript**
-- **Shadcn**
-- **MagicUI**
-- **Tailwind CSS**
-
+🧰 Stack & Tools
+🧩 Next.js 14
+🔹 TypeScript
+💎 Shadcn
+✨ Magic UI
+🎨 Tailwind CSS
