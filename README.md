@@ -13,4 +13,5 @@ npm install && npm run dev
 - Next14
 - Typescript
 - Shadcn
+- MagicUI
 - Tailwind
