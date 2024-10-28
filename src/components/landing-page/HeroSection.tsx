@@ -1,8 +1,6 @@
-import React from 'react'
-import { Button } from '../ui/button'
 import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
-import { Card } from '../ui/card'
+import { Button } from '../ui/button'
 
 const HeroSection = () => {
   return (
