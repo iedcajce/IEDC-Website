@@ -16,10 +16,10 @@ const AboutUs = () => {
 
     <div className="flex flex-col p-8 justify-center items-center w-full min-h-[300px]">
 
-      <div className="flex flex-col sm:items-start items-center justify-center p-4 sm:p-10 sm:w-[60%] max-w-[80%]">
+      <div className="flex flex-col sm:items-start items-center justify-center p-4 sm:p-10 sm:w-[60%] max-w-[100%]">
         <h4 className="text-blue-600 sm:text-sm mb-2 font-normal">What we do</h4>
-        <h1 className="sm:text-[57px] text-xl	  leading-snug font-normal">We partner with</h1>
-        <h1 className="sm:text-[57px] text-xl	 leading-snug flex ">
+        <h1 className="sm:text-[57px] text-2xl leading-snug font-normal">We partner with</h1>
+        <h1 className="sm:text-[57px] text-2xl	 leading-snug flex ">
           bold leaders to&nbsp;
           <span className="text-blue-600">
             <Typewriter
@@ -32,7 +32,7 @@ const AboutUs = () => {
           </span>
           <br />
         </h1>
-        <h1 className="sm:text-[57px] text-xl font-normal leading-snug">the autonomous age.</h1>
+        <h1 className="sm:text-[57px] text-2xl font-normal leading-snug">the autonomous age.</h1>
 
        
       </div>
