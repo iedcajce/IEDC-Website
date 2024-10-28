@@ -10,7 +10,7 @@ const LandingPageLayout = ({
     children,
 }: LandingPageLayoutProps) => {
     return (
-        <div className="flex min-h-screen flex-col bg-background relative">
+        <div className="min-h-screen bg-background relative w-full overflow-x-hidden">
             <LandingPageHeader />
             {children}
             <LandingPageFooter />
