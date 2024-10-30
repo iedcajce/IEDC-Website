@@ -4,17 +4,18 @@ import { Button } from '../ui/button'
 
 const HeroSection = () => {
   return (
-    <main className="relative min-h-[calc(100vh-64px)] h-full">
+    <main className="relative min-h-[calc(100vh-64px)] h-full flex md:flex-row flex-col justify-center items-center gap-16 md:justify-end md:items-center">
       <div className="md:hidden z-0">
         <Image
           src="/images/background.png"
           alt="Placeholder image"
           width={1000}
           height={1200}
-          className="w-[400px] md:w-[600px] h-auto absolute -top-40 -right-32 z-0"
+          className="w-[400px] md:w-[600px] h-auto absolute -top-40 -right-32 z-0 blur-sm"
         />
       </div>
-      <div className="max-w-screen-2xl px-6 w-full mx-auto h-full pt-72 md:pt-36 z-20">
+      <h1 className='font-mistral font-semibold text-6xl md:text-9xl mx-6 md:hidden z-50'>Dream.Design.Do.</h1>
+      <div className="max-w-screen-2xl px-6 w-full mx-auto h-full  z-20">
         <h1 className='text-4xl md:text-7xl font-normal mb-10 z-20'>Build your <br /> autonomous <br className='hidden md:block' /> future. <span className='text-blue-600'>Today.</span></h1>
         <p className='text-sm md:text-base text-muted-foreground mb-6'>We are BOI. The AI Innovation Consultancy.<br />
           <span className='font-semibold'>Reinventing how businesses grow.</span>
@@ -29,8 +30,9 @@ const HeroSection = () => {
         alt="Placeholder image"
         width={1000}
         height={1200}
-        className="w-[400px] md:w-[600px] h-auto absolute -top-40 -right-32 hidden md:block"
+        className="w-[400px] md:w-[600px] h-auto absolute -top-40 -right-32 hidden md:block blur-sm"
       />
+      <h1 className='font-mistral font-semibold text-6xl md:text-9xl mx-6 hidden md:block z-50 '>Dream.Design.Do.</h1>
     </main>
   )
 }
