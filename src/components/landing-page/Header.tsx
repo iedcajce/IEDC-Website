@@ -44,7 +44,7 @@ const LandingPageHeader = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 h-16 bg-white/40 backdrop-blur-md w-full 
-        transform transition-transform duration-500 ease-in-out
+        transform transition-transform duration-1000 ease-in-out
         ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <div className='max-w-screen-2xl mx-auto w-full px-6 h-full text-foreground flex justify-between items-center'>

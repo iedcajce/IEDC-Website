@@ -20,8 +20,8 @@ const LogoCard = ({ img, alt }: { img: string; alt: string }) => {
                 <Image
                     src={img}
                     alt={alt}
-                    width={120}
-                    height={80}
+                    width={250}
+                    height={150}
                     className="object-contain h-12 max-h-12 w-auto"
                     style={{ filter: 'grayscale(100%)' }}
                 />
