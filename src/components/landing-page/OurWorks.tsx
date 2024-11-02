@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const OurWorks = () => {
   return (
-    <div className='max-w-screen-2xl mx-auto py-10 text-foreground grid grid-cols-1 md:grid-cols-3 gap-4 px-6'>
+    <div id='what-we-do' className='max-w-screen-2xl mx-auto py-10 text-foreground grid grid-cols-1 md:grid-cols-3 gap-4 px-6'>
       <div className='col-span-1'>
         <p className='text-base font-sans	font-medium text-blue-700 tracking-wide'>What we do</p>
         <p className='text-3xl md:text-5xl font-sans font-normal text-foreground mb-8'>Our Work</p>

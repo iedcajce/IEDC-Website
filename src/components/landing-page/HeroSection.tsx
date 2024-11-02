@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const HeroSection = () => {
   return (
-    <main className="relative min-h-[calc(100vh-64px)] h-full mt-[64px]">
+    <main id='home' className="relative min-h-[calc(100vh-64px)] h-full mt-[64px]">
       <div className="max-w-screen-2xl px-6 w-full mx-auto h-full">
         <div className="flex flex-col-reverse lg:flex-row h-full">
           {/* Left Section */}
