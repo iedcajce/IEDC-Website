@@ -5,7 +5,7 @@ const CountDownBanner = () => {
   return (
     <>
 
-      <div className="flex flex-col  md:flex-row w-full items-center justify-center lg:justify-around flex-wrap bg-[url('https://www.boardofinnovation.com/wp-content/uploads/2024/06/Banner-3D-background.webp')] bg-no-repeat bg-cover h-[600px] pl-4 pr-4">
+      <div className="flex flex-col  md:flex-row w-full items-center justify-center md:pl-[100px] md:pr-[100px] lg:justify-between flex-wrap bg-[url('https://www.boardofinnovation.com/wp-content/uploads/2024/06/Banner-3D-background.webp')] bg-no-repeat bg-cover h-[600px] pl-4 pr-4">
         <div className='flex  flex-col text-center md:text-start items-center md:items-start  justify-center sm:justify-start gap-4 lg:w-[30%]'>
           <h1 className='text-white leading-snug '>Measuring our impact</h1>
           <h1 className='lg:text-[57px] leading-snug font-sans font-normal text-white mb-8'>Pioneering autonomous innovation</h1>

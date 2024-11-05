@@ -25,7 +25,7 @@ const AboutUs = () => {
             <span className="text-blue-600">
               <Typewriter
                 options={{
-                  strings: ['bold', 'innovative ', 'visionary'],
+                  strings: ['bold', 'innovative', 'visionary'],
                   autoStart: true,
                   loop: true,
                 }}
