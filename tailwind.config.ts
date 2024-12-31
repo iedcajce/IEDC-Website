@@ -79,8 +79,10 @@ const config: Config = {
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
   		},
-		
-  	}
+		fontFamily:{
+			mistral:['Mistral'],
+		},
+  	},
   },
   plugins: [require("tailwindcss-animate")],
 };

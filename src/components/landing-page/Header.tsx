@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { Button } from '../ui/button'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { AlignJustify, Menu } from "lucide-react"
 import {
@@ -71,6 +72,8 @@ const LandingPageHeader = () => {
     >
       <div className='max-w-screen-2xl mx-auto w-full px-6 h-full text-foreground flex justify-between items-center'>
         <div className=''>
+          <Image src='/images/makerhubOldLogo.png' alt='Logo' width={100} height={100} quality={100} priority className='h-16 w-auto' /> 
+          {/* <h1 className='text-2xl font-sans font-semibold'>IEDC AJCE</h1> */}
           <h1 className='text-2xl font-sans font-semibold'>IEDC AJCE</h1>
         </div>
         <div className='flex justify-end gap-4 items-center'>
