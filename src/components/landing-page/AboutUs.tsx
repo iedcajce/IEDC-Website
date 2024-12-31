@@ -4,8 +4,13 @@
 
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import { LogoScroll } from '../ui/logoscroll';
+import { MarqueeDemo } from "../ui/logoscroll"
 const AboutUs = () => {
+
+
+
+  
+
 
   const [isCollapsed, setIsCollapsed] = useState(true);
 
@@ -15,9 +20,11 @@ const AboutUs = () => {
 
   return (
     <>
-      <LogoScroll />
-      <div className="flex flex-col p-6 max-w-screen-2xl mx-auto  justify-center items-center w-full min-h-[300px] ">
-        <div className="flex flex-col text-wrap sm:items-center md:items-start items-center justify-center md:pl-[200px] sm:w-[100%] ">
+      <MarqueeDemo/>
+      
+      <div className="flex flex-col p-8 justify-center items-center w-full min-h-[300px]">
+
+        <div className="flex  flex-col text-wrap sm:items-center md:items-start items-center justify-center lg:pl-[300px] md:lg:pl-[300px]  sm:p-10 sm:w-[100%] max-w-[100%]">
           <h4 className="text-blue-600 sm:text-sm mb-2 font-normal">What we do</h4>
           <h1 className="md:text-[57px] text-2xl leading-snug font-normal">We partner with</h1>
           <h1 className="md:text-[57px] text-2xl	 leading-snug flex ">
@@ -25,7 +32,7 @@ const AboutUs = () => {
             <span className="text-blue-600">
               <Typewriter
                 options={{
-                  strings: ['bold', 'innovative', 'visionary'],
+                  strings: ['bold', 'innovative ', 'visionary'],
                   autoStart: true,
                   loop: true,
                 }}
@@ -34,6 +41,8 @@ const AboutUs = () => {
             <br />
           </h1>
           <h1 className="md:text-[57px] text-2xl font-normal leading-snug">the autonomous age.</h1>
+
+
         </div>
 
         <div className="flex sm:items-end  sm:justify-end justify-center	w-[100%]" >
@@ -42,7 +51,17 @@ const AboutUs = () => {
           </a>
         </div>
 
+
+
         {!isCollapsed && (<>
+
+
+
+
+
+
+
+
           <div className={`flex flex-col sm:flex-row items-center space-x-4 overflow-hidden ${isCollapsed ? ' h-0 opacity-0' : 'h-auto opacity-100 '} `}>
             {/* Video Div */}
             <div className="relative w-full sm:w-[600px] h-80 rounded-lg shadow-lg object-cover mb-6 mt-4">
