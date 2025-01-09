@@ -22,7 +22,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="max-w-[90%] mx-auto mt-10 p-6 border-2  bg-white mb-6">
+    <div className="max-w-[90%] mx-auto mt-10 p-6  bg-white mb-6">
       <h2 className="text-2xl font-bold text-center mb-6">Frequently Asked Questions</h2>
       <div className="space-y-4">
         {faqData.map((item, index) => (
