@@ -30,23 +30,23 @@ const LandingPageFooter = () => {
             {/* Left Column */}
             <div className="space-y-4 flex flex-col text-md text-start md:text-left">
               <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Explore</h3>
-              <Link href="/">Home</Link>
-              <Link href="/">About us</Link>
-              <Link href="/">Execom</Link>
-              <Link href="/">Our Legacy / Accolades</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Home</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">About us</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Execom</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Our Legacy / Accolades</Link>
             </div>
 
             {/* Right Column */}
             <div className="space-y-4 flex flex-col text-md text-start md:text-left md:mt-[72px] mt-0">
-              <Link href="/">Reports</Link>
-              <Link href="/">Facitlies</Link>
-              <Link href="/">Blog</Link>
-              <Link href="/">Events</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Reports</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Facitlies</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Blog</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Events</Link>
             </div>
             {/*End Column*/}
             <div className="space-y-4 flex flex-col text-md text-start md:text-left">
               <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Follow Us</h3>
-              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-colors">
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
                 <Image
                   src="/images/icons/linkedin.svg"
                   alt="Icon name"
@@ -55,8 +55,8 @@ const LandingPageFooter = () => {
                   className="text-current"
                 />  LinkedIn
               </Link>
-              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-colors">
-              <Image
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
                   src="/images/icons/instagram.svg"
                   alt="Icon name"
                   width={20}
@@ -64,8 +64,8 @@ const LandingPageFooter = () => {
                   className="text-current"
                 />  Instagram
               </Link>
-              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-colors">
-              <Image
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
                   src="/images/icons/youtube.svg"
                   alt="Icon name"
                   width={20}
@@ -73,8 +73,8 @@ const LandingPageFooter = () => {
                   className="text-current"
                 />  YouTube
               </Link>
-              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-colors">
-              <Image
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
                   src="/images/icons/twitter.svg"
                   alt="Icon name"
                   width={20}
