@@ -5,6 +5,7 @@ import { Label } from '../ui/label'
 import Link from 'next/link'
 import { Button } from '../ui/button'
 import Image from 'next/image'
+import { Linkedin, Instagram, Youtube, Twitter } from 'lucide-react'
 
 const LandingPageFooter = () => {
   return (
@@ -15,47 +16,72 @@ const LandingPageFooter = () => {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="space-y-8 md:space-y-16">
-            <h3 className='text-center md:text-left text-xl md:text-3xl font-normal'>Discover what's next. <br className='hidden md:block' /> Subscribe today.</h3>
-            <div className="space-y-2">
-              <Input
-                type="email"
-                placeholder='Enter your email'
-                className='w-full md:max-w-[432px] border-0 border-b p-0 py-4 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none text-sm'
-                key="email-input"
-                suppressHydrationWarning={true}
-              />
-              <div className="flex items-center space-x-2 pb-5">
-                <Checkbox id="terms" className='border-gray-400 [data-state="checked"]:bg-blue-600' />
-                <Label
-                  htmlFor="terms"
-                  className="text-[10px] font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
-                  Yes, I have read and understood the <Link href="/" className='text-blue-600 '>privacy policy</Link> and hereby consent to receive e-mails
-                </Label>
-              </div>
-              <Button variant="outline" className='w-full md:max-w-[432px] rounded-3xl py-6 border-white bg-transparent text-white hover:bg-blue-600 hover:border-blue-600 hover:text-white'>Subscribe to our newsletter</Button>
+            <Image src="/images/Iedc-logo.png" alt="logo" width={400} height={300} className='text-sm w-full md:w-auto max-w-[230px] md:max-w-[350px] max-h-[140px]' />
+            <div className="md:w-[400px] space-y-1.5 md:ml-8">
+              <p>Startups Valley Amal Jyothi TBI</p>
+              <p>Amal Jyothi College of Engineering Kanjirappally</p>
+              <p>Koovappally P. O.</p>
+              <p>Kottayam District, Kerala</p>
+              <p>Pin Code - 686518</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="space-y-4 flex flex-col text-xs text-center md:text-left">
-              <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Explore</h3>
-              <Link href="/">Work</Link>
-              <Link href="/">About</Link>
-              <Link href="/">Join us</Link>
-              <Link href="/">Insights</Link>
-            </div>
-            <div className="space-y-4 flex flex-col text-xs text-center md:text-left">
-              <h3 className='font-semibold text-2xl mb-4 md:mb-6'>About Us</h3>
-              <Link href="/">Join us</Link>
-              <Link href="/">Contact</Link>
-              <Link href="/">Privacy Policy</Link>
-            </div>
-            <div className="space-y-4 flex flex-col text-xs text-center md:text-left">
-              <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Social</h3>
-              <Link href="/">LinkedIn</Link>
-              <Link href="/">Instagram</Link>
-              <Input type="text" placeholder='Search for content' className='p-2 h-7 text-sm w-full md:max-w-44' />
 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:items-center">
+            {/* Left Column */}
+            <div className="space-y-4 flex flex-col text-md text-start md:text-left">
+              <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Explore</h3>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Home</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">About us</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Execom</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Our Legacy / Accolades</Link>
+            </div>
+
+            {/* Right Column */}
+            <div className="space-y-4 flex flex-col text-md text-start md:text-left md:mt-[72px] mt-0">
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Reports</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Facitlies</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Blog</Link>
+              <Link href="/" className="hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">Events</Link>
+            </div>
+            {/*End Column*/}
+            <div className="space-y-4 flex flex-col text-md text-start md:text-left">
+              <h3 className='font-semibold text-2xl mb-4 md:mb-6'>Follow Us</h3>
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
+                  src="/images/icons/linkedin.svg"
+                  alt="Icon name"
+                  width={20}
+                  height={20}
+                  className="text-current"
+                />  LinkedIn
+              </Link>
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
+                  src="/images/icons/instagram.svg"
+                  alt="Icon name"
+                  width={20}
+                  height={20}
+                  className="text-current"
+                />  Instagram
+              </Link>
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
+                  src="/images/icons/youtube.svg"
+                  alt="Icon name"
+                  width={20}
+                  height={20}
+                  className="text-current"
+                />  YouTube
+              </Link>
+              <Link href="/" className="flex items-center justify-start gap-4 hover:text-gray-300 transition-transform duration-300 ease-in-out transform hover:translate-x-1">
+                <Image
+                  src="/images/icons/twitter.svg"
+                  alt="Icon name"
+                  width={20}
+                  height={20}
+                  className="text-current"
+                />  Twitter
+              </Link>
             </div>
           </div>
         </div>
@@ -63,17 +89,18 @@ const LandingPageFooter = () => {
 
         {/* Bottom Section */}
         <div
-          className='md:border-t pt-4 md:pt-8 flex-col-reverse gap-16 md:gap-0 md:flex-row flex items-start'
+          className='border-t pt-4 md:pt-8 flex justify-center w-full'
         >
-          <div className="w-full md:w-1/2">
-            <Image src="/images/BOI-logo.png" alt="logo" width={500} height={300} className='text-sm w-full md:w-auto md:max-w-[432px] max-h-[140px]' />
-          </div>
-          <div className="md:w-1/2 md:pl-6 space-y-8">
-            <h3 className='text-3xl text-center md:text-left '>The AI Innovation Consultancy</h3>
-            <div className="space-y-2">
-              <p className="block md:hidden">Privacy Statement  | Terms & Conditions | Creative Commons</p>
-              <p className='text-[9px] text-left '>197 Grand Street, Ste 5W, New York, NY 10013</p>
-            </div>
+          <div className="text-center w-full px-4">
+            <p className="text-xs sm:text-sm md:text-md break-words">
+              Copyright © {new Date().getFullYear()}
+              <a className='text-blue-600 underline hover:text-blue-400 transition-colors'
+                href="https://www.startupsvalley.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              > MakerHub IEDC  </a>
+              All Rights Reserved
+            </p>
           </div>
         </div>
       </div>
