@@ -5,6 +5,7 @@ import HeroSection from "@/components/landing-page/HeroSection";
 import Insights from "@/components/landing-page/Insights";
 import OurWorks from "@/components/landing-page/OurWorks";
 import StartupSupport from "@/components/landing-page/StartupSupport";
+import FAQ from "@/components/landing-page/FAQ"
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       <Insights />
       <StartupSupport />
       <Blog />
+      <FAQ />
+
+      
     </main>
   );
 }
