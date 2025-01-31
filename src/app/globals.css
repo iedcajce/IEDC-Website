@@ -85,3 +85,10 @@ body {
   font-weight: 400;
   font-size: 40px;
 }
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
