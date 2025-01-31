@@ -1,11 +1,6 @@
 import React from 'react'
-import { Input } from '../ui/input'
-import { Checkbox } from '../ui/checkbox'
-import { Label } from '../ui/label'
 import Link from 'next/link'
-import { Button } from '../ui/button'
 import Image from 'next/image'
-import { Linkedin, Instagram, Youtube, Twitter } from 'lucide-react'
 
 const LandingPageFooter = () => {
   return (
