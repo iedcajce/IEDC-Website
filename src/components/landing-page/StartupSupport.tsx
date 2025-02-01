@@ -2,6 +2,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { ChevronRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react';
 import {
   Carousel,
   CarouselContent,
@@ -140,6 +141,10 @@ const StartupSupport = () => {
         </div>
       </div>
     </div>
+
+
+
+
   )
 }
 
